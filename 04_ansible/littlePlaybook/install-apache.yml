@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  # apache 2
+  - name: Say Hello
+    command: "echo hello"
